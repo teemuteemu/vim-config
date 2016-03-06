@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/t.kallio/Projects/vim-config/vim'
+let g:netrw_dirhist_2='/Users/t.kallio/Projects/games-front/test/spec'
+let g:netrw_dirhist_3='/Users/t.kallio/Projects/vim-config/vim'
+let g:netrw_dirhist_4='/Users/t.kallio/Projects/games-front'
+let g:netrw_dirhist_5='/Users/t.kallio/Projects/tmp/c++web/gene/.git'
+let g:netrw_dirhist_6='/Users/t.kallio/.vim'
