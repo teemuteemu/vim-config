@@ -74,3 +74,4 @@ nnoremap gc :noh <CR>
 nnoremap gt :NERDTree <CR>
 "nnoremap gn :split <CR>
 "nnoremap gm :vsplit <CR>
+nnoremap gw :ArgWrap<CR>
