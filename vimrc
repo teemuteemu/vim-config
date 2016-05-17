@@ -17,6 +17,7 @@ Plugin 'luochen1990/rainbow'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ap/vim-css-color'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -32,6 +33,8 @@ set cursorline
 set cursorcolumn
 set shiftwidth=2
 set softtabstop=2
+set number
+set relativenumber
 
 colorscheme hybrid
 
@@ -42,9 +45,11 @@ set clipboard=unnamed
 set wildignore+=*/node_modules/*,*/bower_components/*
 let g:ctrlp_custom_ignore = '.*(bower_components|node_modules).*'
 
-" Set syntastic to use standard
+" Set syntastic for javascript
 "let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_checkers = ['standard']
+"let g:syntastic_javascript_checkers = ['standard']
+let g:syntastic_javascript_checkers=['standard']
+let g:syntastic_javascript_standard_exec = 'semistandard'
 
 let $TMP_DIR=$HOME."/.vim/tmp/"
 set backupdir=$TMP_DIR
