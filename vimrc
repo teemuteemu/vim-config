@@ -17,7 +17,7 @@ Plugin 'luochen1990/rainbow'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ap/vim-css-color'
-Plugin 'rust-lang/rust.vim'
+Plugin 'FooSoft/vim-argwrap'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
