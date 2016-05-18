@@ -46,8 +46,6 @@ set wildignore+=*/node_modules/*,*/bower_components/*
 let g:ctrlp_custom_ignore = '.*(bower_components|node_modules).*'
 
 " Set syntastic for javascript
-"let g:syntastic_javascript_checkers = ['eslint']
-"let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_checkers=['standard']
 let g:syntastic_javascript_standard_exec = 'semistandard'
 
