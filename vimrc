@@ -10,7 +10,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
-Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'luochen1990/rainbow'
@@ -18,6 +17,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ap/vim-css-color'
 Plugin 'FooSoft/vim-argwrap'
+Plugin 'posva/vim-vue'
+Plugin 'w0rp/ale'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
