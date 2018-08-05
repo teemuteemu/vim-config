@@ -18,6 +18,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'FooSoft/vim-argwrap'
 Plugin 'posva/vim-vue'
 Plugin 'w0rp/ale'
+Plugin 'tomlion/vim-solidity'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -74,3 +75,5 @@ nnoremap gt :NERDTree <CR>
 "nnoremap gn :split <CR>
 "nnoremap gm :vsplit <CR>
 nnoremap gw :ArgWrap<CR>
+
+inoremap § <esc>
