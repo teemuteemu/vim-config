@@ -19,6 +19,7 @@ Plugin 'FooSoft/vim-argwrap'
 Plugin 'posva/vim-vue'
 Plugin 'w0rp/ale'
 Plugin 'tomlion/vim-solidity'
+Plugin 'elixir-editors/vim-elixir'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -65,6 +66,9 @@ if has("gui_running")
   set lines=52 columns=220
   set ai
   set ruler
+  
+  "disable the awfull bell
+  set visualbell t_vb=
 else
   set t_Co=256
 endif
@@ -76,4 +80,12 @@ nnoremap gt :NERDTree <CR>
 "nnoremap gm :vsplit <CR>
 nnoremap gw :ArgWrap<CR>
 
+" Map the esc, thanks touch bar
 inoremap § <esc>
+
+let g:ale_completion_enabled = 1
+let g:ale_fixers = {}
+let g:ale_fixers.elixir = ['mix_format']
+
+" Elixir language server
+let g:ale_elixir_elixir_ls_release = '/Users/teemu/Projects/elixir-ls/rel/'
