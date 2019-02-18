@@ -20,6 +20,7 @@ Plugin 'posva/vim-vue'
 Plugin 'w0rp/ale'
 Plugin 'tomlion/vim-solidity'
 Plugin 'elixir-editors/vim-elixir'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
