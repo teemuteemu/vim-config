@@ -21,6 +21,7 @@ Plugin 'w0rp/ale'
 Plugin 'tomlion/vim-solidity'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'derekwyatt/vim-scala'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -48,11 +49,6 @@ set clipboard=unnamed
 set wildignore+=*/node_modules/*,*/bower_components/*
 let g:ctrlp_custom_ignore = '.*(bower_components|node_modules).*'
 
-" Set syntastic for javascript
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
-"let g:syntastic_javascript_eslint_exe = 'npm run lint --'
-
 let $TMP_DIR=$HOME."/.vim/tmp/"
 set backupdir=$TMP_DIR
 set directory=$TMP_DIR
@@ -63,7 +59,7 @@ let g:rainbow_active = 1
 
 if has("gui_running")
   set guioptions-=T
-  set guifont=Terminus\ 14
+  set gfn=TerminusTTF:h18
   set lines=52 columns=220
   set ai
   set ruler
