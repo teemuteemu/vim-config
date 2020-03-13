@@ -21,7 +21,9 @@ Plugin 'w0rp/ale'
 Plugin 'tomlion/vim-solidity'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'fatih/vim-go'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -59,7 +61,7 @@ let g:rainbow_active = 1
 
 if has("gui_running")
   set guioptions-=T
-  set gfn=TerminusTTF:h18
+  set gfn=TerminusTTF:h14
   set lines=52 columns=220
   set ai
   set ruler
@@ -83,6 +85,3 @@ inoremap § <esc>
 let g:ale_completion_enabled = 1
 let g:ale_fixers = {}
 let g:ale_fixers.elixir = ['mix_format']
-
-" Elixir language server
-let g:ale_elixir_elixir_ls_release = '/Users/teemu/Projects/elixir-ls/rel/'
