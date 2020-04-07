@@ -17,13 +17,14 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'ap/vim-css-color'
 Plugin 'FooSoft/vim-argwrap'
 Plugin 'posva/vim-vue'
-Plugin 'w0rp/ale'
+Plugin 'dense-analysis/ale'
 Plugin 'tomlion/vim-solidity'
-Plugin 'elixir-editors/vim-elixir'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'fatih/vim-go'
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'tpope/vim-endwise'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
