@@ -22,6 +22,8 @@ Plugin 'tomlion/vim-solidity'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'fatih/vim-go'
+Plugin 'gyim/vim-boxdraw'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -59,7 +61,7 @@ let g:rainbow_active = 1
 
 if has("gui_running")
   set guioptions-=T
-  set gfn=TerminusTTF:h18
+  set gfn=Terminus\ Medium\ 10
   set lines=52 columns=220
   set ai
   set ruler
